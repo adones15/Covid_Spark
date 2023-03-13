@@ -11,3 +11,4 @@ A melhora em desempenho foi significativa, o código em Pandas demorou cerca de 
 
 Após fazer o teste localmente dos dois códigos, resolvi colocar o código em Spark no Airflow para agendar o código para ser executado uma vez por dia, e para isso criei um container Docker para receber o Airflow e agendar a execução do script.
 
+Anexo estão os códigos em Spark e Pandas para teste de desempenho e a foto mostrando o resultado dos testes, bem como o código em Spark adaptado para Linux para poder rodar no Airflow pelo Docker
